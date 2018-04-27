@@ -41,3 +41,6 @@ Route::get('Route2');
 Route::get('goiten',function(){
 	return http_redirect()->route('Myroute');
 });
+Route::get('quequan/{tinh}',function{
+  echo "Que quan : ".$tinh;
+});
